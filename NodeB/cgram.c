@@ -21,15 +21,3 @@ void cgram_lcd(void)
 		}
 	}
 }
-
-
-
-//void cgram_lcd_p(char *p)
-//{
-//	int i;
-//	lcd_cmd(0x40);
-//	for(i=0;i<8;i++)
-//	{
-//		lcd_data(p[i]);
-//	}
-//}
